@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+#contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pageContent {
+    display: inline-flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#gridContainer {
+    display: inline-grid;
+    width: 700px;
+    height: 700px;
+    box-sizing: border-box;
+}
+
+#resetButtonHolder {
+    display: flex;
+    justify-content: center;
+}
+
+#resetButton {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 40px;
+    margin-bottom: 12px;
+    background-color: wheat;
+    border-color: transparent;
+    border-style: solid;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#resetButton:hover {
+    border-style: solid;
+    box-sizing: border-box;
+    border-color: rgba(77, 77, 77, 0.562);
+}
+
